@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <title>Home</title>
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <div class="logo">
+            <img class="logo-img" src="images/logo.png" alt="uNotes Logo">
+            <h1 class="logo-text">uNotes Stationary</h1>
+        </div>
+
+        <div>
+            <form>
+                <input type="text" name="search" placeholder="Search..">
+            </form>
+        </div>
+    </div>
+
+    <nav class="nav-bar">
+        <ul>
+            <li class="nav-item"><a href="home.html">Home</a></li>
+            <li class="nav-item"><a href="products.html">All Products</a></li>
+            <li class="nav-item"><a href="about.html">Trending</a></li>
+            <li class="nav-item"><a href="contact.html">New Arrivals</a></li>
+            <li class="nav-item"><a href="sale.html">On Sale</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="account-creation">
+            <h2>Sign in</h2>
+            <p>Don't have an account? <a href="home.html"><span class="sign-in-link">Sign Up</span></a></p>
+
+            <form>
+                <div><input type="text" placeholder="Username" id="user" name="user" required></div>
+                <div><input type="password" placeholder="Password" id="password" required></div>
+
+                <button type="submit" class="sign-up-login-button">Sign up</button>
+            </form>
+
+        </div>
+    </main>
+
+    <footer class="footer-basic">
+        <ul class="list-inline">
+            <li class><a href="about.html">About</a></li>
+            <li class><a href="#">Terms of Service</a></li>
+            <li class><a href="#">Refund Policy</a></li>
+            <li class><a href="contact.html">Contact Us</a></li>
+        </ul>
+        <p class="copyright">uNotes Inc. © 2022</p>
+    </footer>
+
+
+</body>
+</html>
