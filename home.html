@@ -27,13 +27,13 @@
                 </li>
 
                 <li>
-                    <a href="sign_in.html"><img class="icon" src="user.png" alt="User Page"></a>
+                    <a href="sign_in.html"><img class="icon" src="images/user.png" alt="User Page"></a>
                 </li>
 
                 <li>
-                    <a href=""><img class="icon" src="cart.png" alt="Shopping Cart"></a>
+                    <a href=""><img class="icon" src="images/cart.png" alt="Shopping Cart"></a>
                 </li>
-        </ul>
+            </ul>
         </div>
     </div>
 
@@ -47,25 +47,61 @@
         </ul>
     </nav>
 
-    <main>
-        <div class="account-creation">
-            <h2>Create Account</h2>
-            <p>Already have an account? <a href="sign_in.html"><span class="sign-in-link">Sign in</span></a></p>
 
-
-            <form>
-                <div><input type="text" placeholder="Username" id="user" name="user" required></div>
-                <div><input type="email" placeholder="Email" name="email" id="email" required></div>
-
-                <div><input type="password" placeholder="Password" id="password" required></div>
-                <div><input type="password" placeholder="Confirm Password" id="confirm_password" required></div>
-
-                <button type="submit" class="sign-up-login-button">Sign up</button>
-            </form>
-
+    <div class="hero-image">
+        <div class="hero-text">
+            <h1>One-stop shop for all your stationery needs</h1>
+            <p>Sign up today for 15% off all store items</p>
+            <a href="sign_up.html"><button>Sign Up</button></a>
         </div>
+    </div>
+
+    <main class="home-main">
+        <h2>Browse by Category</h2>
+        <p>Have a specific item you're looking for? Look here.</p>
+
+        <ul>
+            <li class="category"><img class="items" src="images/c_notebook.png" alt="">
+                <p>Notebooks</p>
+            </li>
+            <li class="category"><img class="items" src="images/c_notepad.png" alt="">
+                <p>Notepads</p>
+            </li>
+            <li class="category"><img class="items" src="images/c_pen.png" alt="">
+                <p>Pens</p>
+            </li>
+            <li class="category"><img class="items" src="images/c_tape.png" alt="">
+                <p>Washi Tape</p>
+            </li>
+            <li class="category"><img class="items" src="images/c_sticker.png" alt="">
+                <p>Stickers</p>
+            </li>
+        </ul>
+
+        <h2>Trending items</h2>
+        <p>Check out some of our most popular items!</p>
+        <ul>
+            <li class="trending"><img class="items" src="images/trend_pen.png" alt="">
+                <p class="trend-item">Mildliner Highlighter</p>
+                <p class="price">$19.99</p>
+            </li>
+            <li class="trending"><img class="items" src="images/trend_tape.png" alt="">
+                <p class="trend-item">Ocean Washi Tape Set</p>
+                <p class="price">$4.99</p>
+            </li>
+            <li class="trending"><img class="items" src="images/trend_cat.png" alt="">
+                <p class="trend-item">Cat Sticker Pack</p>
+                <p class="price">$6.99</p>
+            </li>
+            <li class="trending"><img class="items" src="images/trend_stamp.png" alt="">
+                <p class="trend-item">To Do List Stamp</p>
+                <p class="price">$7.99</p>
+            </li>
+
+        </ul>
     </main>
 
+    <hr>
 
     <footer class="footer-basic">
         <ul class="list-inline">
@@ -77,5 +113,6 @@
         <p class="copyright">uNotes, Inc. © 2022</p>
     </footer>
 </body>
+
 
 </html>
