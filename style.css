@@ -1,11 +1,11 @@
-body{
+body {
     font-family: 'Inter';
     margin: 0;
     padding: 0;
     color: #141414
 }
 
-h2{
+h2 {
 
     font-family: 'Inter';
     font-style: normal;
@@ -17,7 +17,7 @@ h2{
 }
 
 .account-creation {
-    
+
     background: rgba(255, 255, 255, 0.8);
     margin: 0 auto;
     padding: 42px;
@@ -27,33 +27,33 @@ h2{
     border-radius: 4px;
 }
 
-img{
-    width:100%;
+img {
+    width: 100%;
 }
 
-.logo-img{
+.logo-img {
     width: 65px;
-    float:left;
-    margin-top: -25px;
+    float: left;
+    margin-top: -15px;
 }
 
-.logo-text{
+.logo-text {
     margin: 0;
     font-size: 31px;
     font-weight: 400;
 }
 
-.logo{
+.logo {
     margin-left: 30px;
     margin-top: 35px;
     width: 400px;
 }
 
-a{
-    text-decoration:none;
+a {
+    text-decoration: none;
 }
 
-.sign-in-link{
+.sign-in-link {
     color: #B48282;
 }
 
@@ -61,7 +61,7 @@ li {
     display: inline;
 }
 
-main{
+main {
     padding-top: 23px;
     padding-bottom: 50px;
     background-image: url('images/shop.png');
@@ -69,10 +69,10 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    
+
 }
 
-.nav-item{
+.nav-item {
 
     font-family: 'Inter';
     font-style: normal;
@@ -87,33 +87,33 @@ ul {
     padding: 0;
     text-align: center;
 }
-  
-  
+
+
 .nav-item a {
-    color:#141414;
+    color: #141414;
     padding: 14px 16px;
     margin: 0px 26px 0px 26px;
 }
-  
+
 .nav-item a:hover {
     text-decoration: underline;
 }
 
 
-input{
+input {
     width: 100%;
     box-sizing: border-box;
     border: 2px solid #ccc;
     border-radius: 4px;
     font-size: 16px;
     background-color: white;
-    background-position: 10px 10px; 
+    background-position: 10px 10px;
     background-repeat: no-repeat;
     padding: 12px 20px 12px 20px;
     margin-bottom: 20px;
 }
 
-input[name=search]{
+input[name=search] {
     background-image: url('images/magnify.png');
     padding: 12px 20px 12px 40px;
     margin: 0;
@@ -122,7 +122,7 @@ input[name=search]{
     margin-right: 12px;
 }
 
-button{
+button {
     background-color: #1B1818;
     color: white;
     padding: 12px 20px;
@@ -131,11 +131,11 @@ button{
     border-radius: 4px;
 }
 
-button:hover{
+button:hover {
     opacity: 1;
 }
 
-.nav-bar{
+.nav-bar {
     padding-bottom: 5px;
 }
 
@@ -145,73 +145,74 @@ button:hover{
 }
 
 footer {
-    border-top-width:solid;
+    border-top-width: solid;
     padding-bottom: 40px;
-    color:#4b4c4d;
-    padding:0;
-    list-style:none;
-    text-align:center;
-    font-size:18px;
+    color: #4b4c4d;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
 }
-  
+
 footer li {
-    padding:0 10px;
+    padding: 0 10px;
 }
-  
+
 footer ul a {
-    color:inherit;
-    text-decoration:none;
-    opacity:0.8;
-  }
-  
-footer ul a:hover {
-    opacity:1;
-  }
-  
-.copyright {
-    margin-top:15px;
-    text-align:center;
-    font-size:14px;
-    color:#aaa;
-    margin-bottom:15px;
-  }
-
-.icon{
-    width: 40px;
-    margin-bottom: -15px; 
+    color: inherit;
+    text-decoration: none;
+    opacity: 0.8;
 }
 
-li{
+footer ul a:hover {
+    opacity: 1;
+}
+
+.copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 15px;
+}
+
+.icon {
+    width: 40px;
+    margin-bottom: -15px;
+}
+
+li {
     display: inline-block;
 }
 
-.user-search{
+.user-search {
     margin-right: 30px;
-    margin-top: 15px; 
+    margin-top: 15px;
 }
 
-li a img:hover{
+li a img:hover {
     opacity: 0.6;
     transition: opacity ease-in-out 0.2s;
 
 }
 
-.home-main{
+.home-main {
     background-image: none;
     padding: 25px 45px 0px;
 }
 
-.trending{
+.trending {
     margin: 17px;
-    text-align: left;     
+    text-align: left;
+    width: 276px;
 }
 
-.category{
+.category {
     margin: 15px;
-    text-align: center;     
+    text-align: center;
 }
 
-.items:hover{
+.items:hover {
     opacity: .7;
 }
 
@@ -223,12 +224,12 @@ li a img:hover{
     background-position: center;
 }
 
-.price{
+.price {
     margin-top: 0px;
     font-size: 15px;
 }
 
-.trend-item{
+.trend-item {
     margin-bottom: 5px;
 }
 
@@ -239,13 +240,160 @@ li a img:hover{
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-  }
-  
-  .hero-text {
+}
+
+.hero-text {
     text-align: center;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     color: white;
-  }
+}
+
+@media (max-width: 600px) {
+
+    .items {
+        width: 135px;
+    }
+
+    .trend-item {
+        font-size: 15px;
+    }
+
+    .logo-text {
+        display: none;
+    }
+
+    .category {
+        margin: 10px;
+    }
+
+    .flex-container {
+        display: none;
+    }
+
+    .nav-bar {
+        display: none;
+    }
+
+    .mobile-header {
+        display: flex;
+        margin: 15px;
+        padding-bottom: 10px;
+        justify-content: space-between;
+    }
+
+    .icon {
+        margin-bottom: 0px;
+    }
+
+    #logo-img {
+        width: 50px;
+    }
+
+    h1{
+        font-size: 25px;
+    }
+
+    input {
+        width: 80%;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+    }
+
+    .account-creation {
+        width: 100%;
+        height: 100%;
+        /* background: rgba(255, 255, 255, 0.8); */
+        background-color: transparent;
+        margin: 0 auto;
+        padding: 42px;
+        margin-top: 20px;
+        text-align: center;
+        border-radius: 4px;
+    }
+}
+
+@media (max-width: 890px) {
+    .search-form{
+        display:none;
+    }
+
+    .search-mini{
+        width: 40px;
+        margin-bottom: -15px;
+    }
+}
+
+@media (min-width: 891px) {
+    #search-mini {
+        display:none;
+    }
+}
+
+@media (max-width: 720px) {
+    .items {
+        width: 200px;
+    }
+
+    .nav-bar a{
+        font-size: 25px;
+    }
+
+    .logo-text{
+        font-size: 29px;
+    }
+    
+}
+
+@media (max-width: 450px) {
+
+    body{
+        text-align: center;
+    }
+
+    .items {
+        width: 120px;
+    }
+
+    .home-main {
+        padding-left: 22px;
+        padding-right: 22px;
+    }
+
+    .trend-item {
+        font-size: 13px;
+    }
+
+    .trending {
+        width: 110px;
+        margin: 15px;
+    }
+
+    .price {
+        font-size: 12px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+
+    .price {
+        text-align: center;
+    }
+
+    .trend-item{
+        text-align: center;
+    }
+
+}
+
+@media (min-width:601px) {
+    .mobile-header {
+        display: none;
+    }
+}
