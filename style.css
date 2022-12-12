@@ -49,7 +49,7 @@ img {
     width: 400px;
 }
 
-.logo:hover{
+.logo:hover {
     opacity: .6;
 }
 
@@ -144,12 +144,12 @@ button:hover {
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
-a:visited{
-    color:inherit
+a:visited {
+    color: inherit
 }
 
 .flex-container {
@@ -305,7 +305,7 @@ li a img:hover {
         width: 50px;
     }
 
-    h1{
+    h1 {
         font-size: 25px;
     }
 
@@ -323,11 +323,11 @@ li a img:hover {
 }
 
 @media (max-width: 890px) {
-    .search-form{
-        display:none;
+    .search-form {
+        display: none;
     }
 
-    .search-mini{
+    .search-mini {
         width: 40px;
         margin-bottom: -15px;
     }
@@ -335,7 +335,7 @@ li a img:hover {
 
 @media (min-width: 891px) {
     #search-mini {
-        display:none;
+        display: none;
     }
 }
 
@@ -344,19 +344,19 @@ li a img:hover {
         width: 200px;
     }
 
-    .nav-bar a{
+    .nav-bar a {
         font-size: 25px;
     }
 
-    .logo-text{
+    .logo-text {
         font-size: 29px;
     }
-    
+
 }
 
 @media (max-width: 450px) {
 
-    body{
+    body {
         text-align: center;
     }
 
@@ -390,7 +390,7 @@ li a img:hover {
         text-align: center;
     }
 
-    .trend-item{
+    .trend-item {
         text-align: center;
     }
 
